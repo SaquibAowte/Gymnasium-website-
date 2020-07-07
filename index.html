@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saquib Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        body {
+            /* CSS Reset */
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('gym1.jpeg');
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 30px;
+            top: 20px;
+
+        }
+
+        .mid {
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+            /* border: 2px solid yellow; */
+        }
+
+        .right {
+            position: absolute;
+            right: 42px;
+            top: 32px;
+            display: inline-block;
+            /* border: 2px solid blue; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar li a {
+
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            width: 75px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            margin: 2px 12px;
+            background-color: black;
+            color: white;
+            border: 3px solid gray;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: green;
+        }
+
+        .container {
+            /* border: 2px solid green; */
+            border-radius: 80px;
+            width: 26%;
+            margin: 70px 185px;
+            padding: 35px 132px;
+
+        }
+
+        .formfield input {
+            text-align: center;
+            display: block;
+            width: 300px;
+            height: 20px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 2px auto;
+            font-size: 16px;
+            border-radius: 8px;
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+
+        <
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="logo1.jpg" alt="Error">
+            <div>
+                Saquib Fitness
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button>
+                <div class="btn">Call Us</div>
+            </button>
+            <button>
+                <div class="btn">Email Us</div>
+            </button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h2>Join the best gym of Kagal Now</h2>
+        <form action="saquib.php">
+            <div class="formfield">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formfield">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formfield">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
